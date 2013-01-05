@@ -1,6 +1,6 @@
 ---
 title: My new site
-subtitle: is awsome
+subtitle: is awesome
 tags: demo
 ---
 
