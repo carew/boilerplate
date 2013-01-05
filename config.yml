@@ -1,0 +1,11 @@
+site:
+    title:        My new site
+    description:  Is awsome
+    author_name:  You name here
+    author_email: Your email here
+    author_url:   Your url here
+
+engine:
+    theme_path: %dir%/vendor/carew/theme-bootstrap
+    extensions:
+        - Carew\Plugin\Toc\TocExtension

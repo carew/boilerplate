@@ -1,0 +1,14 @@
+{
+    "name": "carew/boilerplate",
+    "authors": [
+        {
+            "name": "Grégoire Pineau",
+            "email": "lyrixx@lyrixx.info"
+        }
+    ],
+    "require": {
+        "carew/carew": "~1.0",
+        "carew/theme-bootstrap": "~1.0",
+        "carew/plugin-toc": "~1.0"
+    }
+}
