@@ -6,7 +6,7 @@ site:
     author_url:   Your url here
 
 engine:
-    theme_path: %dir%/vendor/carew/theme-bootstrap
+    themes: %dir%/vendor/carew/theme-bootstrap
     extensions:
         - Carew\Plugin\Toc\TocExtension
         - Carew\Plugin\Highlight\HighlightExtension
