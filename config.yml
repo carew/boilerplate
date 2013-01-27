@@ -4,9 +4,15 @@ site:
     author_name:  You name here
     author_email: Your email here
     author_url:   Your url here
+    url_absolute: http://exemple.com
 
 engine:
-    themes: %dir%/vendor/carew/theme-bootstrap
+    themes:
+        - %dir%/vendor/carew/theme-bootstrap
     extensions:
         - Carew\Plugin\Toc\TocExtension
         - Carew\Plugin\Highlight\HighlightExtension
+        - Carew\Plugin\Pagination\PaginationExtension
+
+pagination:
+    max_per_page: 10

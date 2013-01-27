@@ -1,20 +1,20 @@
 {
-    "name": "carew/boilerplate",
-    "description": "Carew boilerplate",
-    "license": "MIT",
-    "homepage": "http://carew.github.com/",
-    "keywords": ["carew"],
-    "authors": [
+    "name"        : "carew/boilerplate",
+    "description" : "Carew boilerplate",
+    "license"     : "MIT",
+    "homepage"    : "http://carew.github.com/",
+    "keywords"    : ["carew"],
+    "authors"     : [
         {
-            "name": "Grégoire Pineau",
-            "email": "lyrixx@lyrixx.info"
+            "name"  : "Grégoire Pineau",
+            "email" : "lyrixx@lyrixx.info"
         }
     ],
     "require": {
-        "carew/carew": "~1.0",
-        "carew/theme-bootstrap": "~1.0",
-        "carew/plugin-toc": "~1.0",
-        "carew/plugin-highlight": "~1.0",
-        "easybook/geshi": "dev-master"
+        "carew/carew"             : "~1.5",
+        "carew/theme-bootstrap"   : "~1.0",
+        "carew/plugin-toc"        : "~1.0",
+        "carew/plugin-highlight"  : "~1.0",
+        "carew/plugin-pagination" : "~1.0"
     }
 }
