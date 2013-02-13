@@ -1,23 +1,23 @@
 {
-    "hash": "f2d57eb2f16272b73841ff516c4ac020",
+    "hash": "083e92abde8902d1b424d2cda2418e36",
     "packages": [
         {
             "name": "carew/carew",
-            "version": "v1.5.0",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "git://github.com/carew/carew.git",
-                "reference": "v1.5.0"
+                "reference": "v1.6.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/carew/carew/archive/v1.5.0.zip",
-                "reference": "v1.5.0",
+                "url": "https://api.github.com/repos/carew/carew/zipball/v1.6.0",
+                "reference": "v1.6.0",
                 "shasum": ""
             },
             "require": {
                 "dflydev/markdown": ">=1.0,<2.0",
-                "kevinlebrun/slug.php": "*",
+                "kevinlebrun/slug.php": "dev-master",
                 "pimple/pimple": ">=1.0,<2.0",
                 "symfony/console": ">=2.1,<3.0",
                 "symfony/event-dispatcher": ">=2.0,<3.0",
@@ -26,11 +26,16 @@
                 "symfony/yaml": ">=2.1,<3.0",
                 "twig/twig": ">=1.11.0,<2.0"
             },
-            "time": "2013-01-27 20:27:07",
+            "time": "2013-02-05 21:46:13",
             "bin": [
                 "bin/carew"
             ],
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
                     "Carew": ""
@@ -61,25 +66,30 @@
         },
         {
             "name": "carew/plugin-highlight",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "target-dir": "Carew/Plugin/Highlight",
             "source": {
                 "type": "git",
                 "url": "https://github.com/carew/plugin-highlight",
-                "reference": "v1.1.0"
+                "reference": "v1.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/carew/plugin-highlight/archive/v1.1.0.zip",
-                "reference": "v1.1.0",
+                "url": "https://api.github.com/repos/carew/plugin-highlight/zipball/v1.2.0",
+                "reference": "v1.2.0",
                 "shasum": ""
             },
             "require": {
-                "carew/carew": ">=1.5,<2.0",
+                "carew/carew": ">=1.6,<2.0",
                 "easybook/geshi": "dev-master@dev"
             },
-            "time": "2013-01-27 20:20:32",
+            "time": "2013-02-05 21:48:05",
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
                     "Carew\\Plugin\\Highlight": ""
@@ -104,24 +114,29 @@
         },
         {
             "name": "carew/plugin-pagination",
-            "version": "v1.1.0",
+            "version": "v1.1.1",
             "target-dir": "Carew/Plugin/Pagination",
             "source": {
                 "type": "git",
                 "url": "git@github.com:carew/plugin-pagination.git",
-                "reference": "v1.1.0"
+                "reference": "v1.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/carew/plugin-pagination/archive/v1.1.0.zip",
-                "reference": "v1.1.0",
+                "url": "https://api.github.com/repos/carew/plugin-pagination/zipball/v1.1.1",
+                "reference": "v1.1.1",
                 "shasum": ""
             },
             "require": {
                 "carew/carew": ">=1.5,<2.0"
             },
-            "time": "2013-01-27 20:21:27",
+            "time": "2013-02-05 21:48:50",
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
                     "Carew\\Plugin\\Pagination": ""
@@ -146,24 +161,29 @@
         },
         {
             "name": "carew/plugin-toc",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "target-dir": "Carew/Plugin/Toc",
             "source": {
                 "type": "git",
                 "url": "https://github.com/carew/plugin-toc",
-                "reference": "v1.1.0"
+                "reference": "v1.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/carew/plugin-toc/archive/v1.1.0.zip",
-                "reference": "v1.1.0",
+                "url": "https://api.github.com/repos/carew/plugin-toc/zipball/v1.2.0",
+                "reference": "v1.2.0",
                 "shasum": ""
             },
             "require": {
-                "carew/carew": ">=1.5,<2.0"
+                "carew/carew": ">=1.6,<2.0"
             },
-            "time": "2013-01-27 20:23:47",
+            "time": "2013-02-05 21:49:30",
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
                     "Carew\\Plugin\\Toc": ""
@@ -188,23 +208,28 @@
         },
         {
             "name": "carew/theme-bootstrap",
-            "version": "v1.5.0",
+            "version": "v1.7.3",
             "source": {
                 "type": "git",
                 "url": "git://github.com/carew/theme-bootstrap.git",
-                "reference": "v1.5.0"
+                "reference": "v1.7.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/carew/theme-bootstrap/archive/v1.5.0.zip",
-                "reference": "v1.5.0",
+                "url": "https://api.github.com/repos/carew/theme-bootstrap/zipball/v1.7.3",
+                "reference": "v1.7.3",
                 "shasum": ""
             },
             "require": {
                 "carew/carew": ">=1.5,<2.0"
             },
-            "time": "2013-01-27 20:24:31",
+            "time": "2013-02-06 20:49:47",
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -320,16 +345,16 @@
         },
         {
             "name": "kevinlebrun/slug.php",
-            "version": "0.1.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kevinlebrun/slug.php",
-                "reference": "0.1.0"
+                "reference": "9190c5ccd64c1e1897e42b93ce1ebc88abbf2d9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/kevinlebrun/slug.php/archive/0.1.0.zip",
-                "reference": "0.1.0",
+                "url": "https://api.github.com/repos/kevinlebrun/slug.php/zipball/9190c5ccd64c1e1897e42b93ce1ebc88abbf2d9d",
+                "reference": "9190c5ccd64c1e1897e42b93ce1ebc88abbf2d9d",
                 "shasum": ""
             },
             "require": {
@@ -339,7 +364,7 @@
                 "phpunit/phpunit": "3.7.*",
                 "squizlabs/php_codesniffer": "1.*"
             },
-            "time": "2012-12-03 22:32:56",
+            "time": "2012-12-04 20:50:19",
             "type": "library",
             "autoload": {
                 "psr-0": {
@@ -632,22 +657,22 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.12.1",
+            "version": "v1.12.2",
             "source": {
                 "type": "git",
                 "url": "git://github.com/fabpot/Twig.git",
-                "reference": "v1.12.1"
+                "reference": "v1.12.2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/fabpot/Twig/archive/v1.12.1.zip",
-                "reference": "v1.12.1",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/v1.12.2",
+                "reference": "v1.12.2",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.2.4"
             },
-            "time": "2013-01-15 20:03:52",
+            "time": "2013-02-09 18:21:53",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -685,7 +710,8 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ]
+    "stability-flags": {
+        "easybook/geshi": 20,
+        "kevinlebrun/slug.php": 20
+    }
 }

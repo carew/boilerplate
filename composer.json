@@ -12,9 +12,11 @@
     ],
     "require": {
         "carew/carew"             : "~1.5",
-        "carew/theme-bootstrap"   : "~1.0",
-        "carew/plugin-toc"        : "~1.0",
-        "carew/plugin-highlight"  : "~1.0",
-        "carew/plugin-pagination" : "~1.0"
+        "carew/theme-bootstrap"   : "~1.7",
+        "carew/plugin-toc"        : "~1.2",
+        "carew/plugin-highlight"  : "~1.2",
+        "carew/plugin-pagination" : "~1.1",
+        "easybook/geshi"          : "dev-master@dev",
+        "kevinlebrun/slug.php"    : "dev-master@dev"
     }
 }
