@@ -1,7 +1,7 @@
 ---
 title: How to build my website ?
-subtitle: is awesome
 tags: demo
+navigations: main
 ---
 
 Hello
@@ -9,6 +9,6 @@ Hello
 
 Just run:
 
-    $ vendor/bin/carew carew:build
+    $ vendor/bin/carew build
 
 For more information visit [the documentation](http://carew.github.com)

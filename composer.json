@@ -11,12 +11,16 @@
         }
     ],
     "require": {
-        "carew/carew"             : "~1.5",
-        "carew/theme-bootstrap"   : "~1.7",
-        "carew/plugin-toc"        : "~1.2",
-        "carew/plugin-highlight"  : "~1.2",
-        "carew/plugin-pagination" : "~1.1",
-        "easybook/geshi"          : "dev-master@dev",
-        "kevinlebrun/slug.php"    : "dev-master@dev"
+        "carew/carew": "~2.0@dev",
+        "carew/theme-bootstrap": "~2.0@dev",
+        "twig/twig": "1.14.*@dev"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
     }
 }
