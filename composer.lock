@@ -11,12 +11,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/carew/carew.git",
-                "reference": "dc5b1559c462652a429acd24dde53d5bce55dee1"
+                "reference": "7a1577fbb2adee0025b8988d63ddf62612ddb95d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/carew/carew/zipball/dc5b1559c462652a429acd24dde53d5bce55dee1",
-                "reference": "dc5b1559c462652a429acd24dde53d5bce55dee1",
+                "url": "https://api.github.com/repos/carew/carew/zipball/7a1577fbb2adee0025b8988d63ddf62612ddb95d",
+                "reference": "7a1577fbb2adee0025b8988d63ddf62612ddb95d",
                 "shasum": ""
             },
             "require": {
@@ -73,20 +73,20 @@
                 "carew",
                 "static-site-generator"
             ],
-            "time": "2013-09-15 13:53:40"
+            "time": "2013-09-15 14:50:57"
         },
         {
             "name": "carew/theme-bootstrap",
-            "version": "2.0.x-dev",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/carew/theme-bootstrap.git",
-                "reference": "cc67e1ca48dfb8729fd2b4d0366bc83dd63b1074"
+                "reference": "f744b9c622bd9243ce06986ce48bbb101bcda50b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/carew/theme-bootstrap/zipball/cc67e1ca48dfb8729fd2b4d0366bc83dd63b1074",
-                "reference": "cc67e1ca48dfb8729fd2b4d0366bc83dd63b1074",
+                "url": "https://api.github.com/repos/carew/theme-bootstrap/zipball/f744b9c622bd9243ce06986ce48bbb101bcda50b",
+                "reference": "f744b9c622bd9243ce06986ce48bbb101bcda50b",
                 "shasum": ""
             },
             "require": {
@@ -110,7 +110,7 @@
                 }
             ],
             "description": "Twitter bootstrap theme for Carew",
-            "time": "2013-09-15 13:47:18"
+            "time": "2013-09-15 15:06:57"
         },
         {
             "name": "michelf/php-markdown",
