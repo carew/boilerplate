@@ -9,6 +9,6 @@ Hello
 
 Just run:
 
-    $ vendor/bin/carew build
+    $ bin/carew build
 
 For more information visit [the documentation](http://carew.github.com)
