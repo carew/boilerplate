@@ -81,16 +81,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/carew/theme-bootstrap.git",
-                "reference": "f744b9c622bd9243ce06986ce48bbb101bcda50b"
+                "reference": "f27084fe0469090cf5b4fd91ed3f3f8d3f00db79"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/carew/theme-bootstrap/zipball/f744b9c622bd9243ce06986ce48bbb101bcda50b",
-                "reference": "f744b9c622bd9243ce06986ce48bbb101bcda50b",
+                "url": "https://api.github.com/repos/carew/theme-bootstrap/zipball/f27084fe0469090cf5b4fd91ed3f3f8d3f00db79",
+                "reference": "f27084fe0469090cf5b4fd91ed3f3f8d3f00db79",
                 "shasum": ""
             },
             "require": {
-                "carew/carew": "~2.0"
+                "carew/carew": "~2.0@dev"
             },
             "type": "library",
             "extra": {
@@ -110,7 +110,7 @@
                 }
             ],
             "description": "Twitter bootstrap theme for Carew",
-            "time": "2013-09-15 15:06:57"
+            "time": "2013-09-15 15:49:31"
         },
         {
             "name": "michelf/php-markdown",
@@ -570,12 +570,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "4001f81a179e3971377ce1ac51b4ff9ea851b8ce"
+                "reference": "00ecabf1b00fc9b045560788de26e27b0ca4e9c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/4001f81a179e3971377ce1ac51b4ff9ea851b8ce",
-                "reference": "4001f81a179e3971377ce1ac51b4ff9ea851b8ce",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/00ecabf1b00fc9b045560788de26e27b0ca4e9c1",
+                "reference": "00ecabf1b00fc9b045560788de26e27b0ca4e9c1",
                 "shasum": ""
             },
             "require": {
@@ -611,7 +611,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2013-09-08 15:21:02"
+            "time": "2013-09-19 11:52:25"
         },
         {
             "name": "yohang/htmltools",
