@@ -11,16 +11,15 @@
         }
     ],
     "require": {
-        "carew/carew": "~2.0@dev",
-        "carew/theme-bootstrap": "~2.0@dev",
-        "twig/twig": "1.14.*@dev"
+        "carew/carew": "~2.0",
+        "carew/theme-bootstrap": "~2.1"
     },
     "config": {
         "bin-dir": "bin"
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "2.0.x-dev"
+            "dev-master": "2.x-dev"
         }
     }
 }
