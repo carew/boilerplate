@@ -11,8 +11,8 @@
         }
     ],
     "require": {
-        "carew/carew": "~2.0",
-        "carew/theme-bootstrap": "~2.1"
+        "carew/carew": "^2.1",
+        "carew/theme-bootstrap": "^2.1"
     },
     "config": {
         "bin-dir": "bin"
