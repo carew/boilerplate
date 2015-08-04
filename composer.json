@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "carew/carew": "^2.1",
+        "carew/carew": "^2.2",
         "carew/theme-bootstrap": "^2.1"
     },
     "config": {
